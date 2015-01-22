@@ -1,5 +1,5 @@
 {
-  "name": "hammock",
+  "name": "uber-hammock",
   "version": "0.1.10",
   "description": "Node.js mock / polyfill http object library for http req / res",
   "main": "index.js",

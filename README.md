@@ -13,8 +13,8 @@ Example
 
 ```js
 /* Should consider migrating to a factory so that people don't have to guess whether to use new or not */
-var MockRequest = require('hammock').Request,
-    MockResponse = require('hammock').Response;
+var MockRequest = require('uber-hammock').Request,
+    MockResponse = require('uber-hammock').Response;
 
 /* Most This is most helpful for GET requests.  In future, it would be nice to polyfill body parsing events. */
 var req = new MockRequest({
